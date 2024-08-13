@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color:#f2f2f2;
+}
+
+
+.Container{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+.header{
+  text-align: left;
+  padding: 10px;
+  border:none;
+  border-radius: 10px;
+  background-color:#c0bdb9;
+  box-shadow: 6px 6px 10px #b6b3ae;
+
+}
+span{
+  color: #d4841c;
+}
+.calc{
+  padding: 20px;
+  border-radius: 20px;
+  background: transparent;
+  border: none;
+  box-shadow: -1px -1px 10px 10px #ceccc9;
+  background-color: #e6e5e4;
+}
+#input{
+  width: 100%;
+  max-width: 400px;
+  padding-top: 30px;
+  padding-right: 10px;
+  border-radius: 20px;
+  height: 100px;
+  border: none;
+  background: transparent;
+  text-align: right;
+  color: #000;
+  cursor: pointer;
+
+
+}
+
+button{
+  border: none;
+  color:#000;
+  margin: 10px;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #fefcff;
+  font-weight: bolder;
+ box-shadow: 6px 6px 10px #ceccc9,
+-6px -6px 10px #ceccc9;
+} 
+button:hover{
+  background-color:#b6b3ae;
+}
+.equals{
+  background-color: #d4841c;
+  color: #fff;
+}
+.equals:hover{
+  background-color:#d4841c;
+}
+.end{
+  background-color: #cdcbca;
+  box-shadow: 6px 6px 10px  #b6b3ae,
+-6px -6px 10px #b6b3ae;
+  
+}
+@media(max-width:450px){
+  button{
+    height: 50px;
+  width: 50px;
+  }
+}
